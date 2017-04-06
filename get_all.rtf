@@ -5,9 +5,9 @@
 \f9\fmodern\fcharset0 Courier;\f10\fnil\fcharset0 Consolas;\f11\fmodern\fcharset0 Courier-Bold;
 }
 {\colortbl;\red255\green255\blue255;\red35\green35\blue35;\red245\green245\blue245;\red38\green38\blue38;
-\red254\green254\blue254;\red130\green130\blue130;\red38\green38\blue38;\red255\green255\blue255;\red190\green0\blue4;
-\red52\green52\blue52;\red249\green249\blue249;\red210\green0\blue53;\red83\green83\blue83;\red210\green0\blue68;
-\red17\green137\blue135;\red0\green0\blue109;\red27\green31\blue34;\red190\green205\blue237;}
+\red254\green254\blue254;\red130\green130\blue130;\red190\green0\blue4;\red52\green52\blue52;\red249\green249\blue249;
+\red210\green0\blue53;\red83\green83\blue83;\red210\green0\blue68;\red17\green137\blue135;\red0\green0\blue109;
+\red27\green31\blue34;\red190\green205\blue237;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
 \paperw11900\paperh16840\margl1440\margr1440\vieww24360\viewh14580\viewkind0
@@ -112,96 +112,105 @@ git init //
 \f7 \
 \pard\pardeftab720\sl300\partightenfactor0
 
-\f8\fs26 \cf7 \cb8 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \outl0\strokewidth0 \strokec7 rm -rf .\cf9 \strokec9 git 
+\f8\fs26 \cf4 \expnd0\expndtw0\kerning0
+\CocoaLigature1 rm -rf .\cf7 git 
 \f6 \'c8\'a1\'cf\'fb
-\f7\fs36 \cf0 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\f7\fs36 \cf0 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f9\fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
+\f9\fs24 \cf8 \cb9 \expnd0\expndtw0\kerning0
 \CocoaLigature1 git add readme.txt \
-git commit -m \cf12 "append GPL" \cf0 (
+git commit -m \cf10 "append GPL" \cf0 (
 \f6 \'cc\'ed\'bc\'d3\'b1\'b8\'d7\'a2\'b2\'a2\'cc\'e1\'bd\'bb
 \f9 )
-\f10 \cf10 \
+\f10 \cf8 \
 \pard\tx642\pardeftab642\pardirnatural\partightenfactor0
 
 \f7\fs36 \cf0 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f9\fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
+\f9\fs24 \cf8 \cb9 \expnd0\expndtw0\kerning0
 \CocoaLigature1 git log(
 \f6 \'b0\'e6\'b1\'be\'b8\'fc\'b8\'c4\'c8\'d5\'d6\'be
 \f9 )
 \f7\fs36 \cf0 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
 
-\f9\fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
+\f9\fs24 \cf8 \cb9 \expnd0\expndtw0\kerning0
 \CocoaLigature1 git log --pretty=oneline(
 \f6 \'d2\'bb\'d0\'d0\'cf\'d4\'ca\'be\'b0\'e6\'b1\'be\'b8\'fc\'b8\'c4\'c8\'d5\'d6\'be
 \f9 )
 \f7\fs36 \cf0 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
 
-\f9\fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
+\f9\fs24 \cf8 \cb9 \expnd0\expndtw0\kerning0
 \CocoaLigature1 git re
 \f11\b \cf4 set
-\f9\b0 \cf10  --hard HEAD^ (
-\f6 \cf13 \cb1 \'c9\'cf\'d2\'bb\'b8\'f6\'b0\'e6\'b1\'be\'be\'cd\'ca\'c7
-\f10 \cf14 \cb11 HEAD^
-\f6 \cf13 \cb1 \'a3\'ac\'c9\'cf\'c9\'cf\'d2\'bb\'b8\'f6\'b0\'e6\'b1\'be\'be\'cd\'ca\'c7
-\f10 \cf14 \cb11 HEAD^^
-\f6 \cf10 \'bb\'d8\'b5\'bd\'c7\'b0
+\f9\b0 \cf8  --hard HEAD^ (
+\f6 \cf11 \cb1 \'c9\'cf\'d2\'bb\'b8\'f6\'b0\'e6\'b1\'be\'be\'cd\'ca\'c7
+\f10 \cf12 \cb9 HEAD^
+\f6 \cf11 \cb1 \'a3\'ac\'c9\'cf\'c9\'cf\'d2\'bb\'b8\'f6\'b0\'e6\'b1\'be\'be\'cd\'ca\'c7
+\f10 \cf12 \cb9 HEAD^^
+\f6 \cf8 \'bb\'d8\'b5\'bd\'c7\'b0
 \f9 100
 \f6 \'b8\'f6\'b0\'e6\'b1\'be\'d3\'c3
-\f10 \cf14 HEAD~100
-\f9 \cf10 )\
+\f10 \cf12 HEAD~100
+\f9 \cf8 )\
 
 \f10 \
 
 \f9 git re
 \f11\b \cf4 set
-\f9\b0 \cf10  --hard \cf15 3628164 (
+\f9\b0 \cf8  --hard \cf13 3628164 (
 \f6 \'bb\'d8\'cd\'cb\'b5\'bd\'c4\'b3\'b8\'f6\'b0\'e6\'b1\'be
 \f9 )\
-\cf10 cat readme.txt 
+\cf8 cat readme.txt 
 \f6 \'e4\'af\'c0\'c0\'ce\'c4\'bc\'fe\'c4\'da\'c8\'dd\
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f9 \cf16 git\cf10  \cf16 reflog (
+\f9 \cf14 git\cf8  \cf14 reflog (
 \f6 \'cb\'f9\'d3\'d0\'cc\'e1\'bd\'bb\'b9\'fd\'b5\'c4\'b0\'e6\'b1\'be
 \f9 )\
 \
 \pard\pardeftab720\sl360\partightenfactor0
-\cf10 git checkout -- readme.txt (
+\cf8 git checkout -- readme.txt (
 \f6 \'b3\'b7\'cf\'fa\'d4\'dd\'bb\'ba\'c7\'f8add\'b5\'c4\'d0\'de\'b8\'c4
 \f9 )\
 \pard\pardeftab720\sl280\partightenfactor0
 
-\f10 \cf14 git reset HEAD 
-\f9 \cf10 readme.txt \
+\f10 \cf12 git reset HEAD 
+\f9 \cf8 readme.txt \
 \
 \pard\pardeftab720\sl360\partightenfactor0
-\cf10 ssh-keygen -t rsa -\cf15 C\cf10  \cf12 \'93363155926@qq.com\'94   
+\cf8 ssh-keygen -t rsa -\cf13 C\cf8  \cf10 \'93363155926@qq.com\'94   
 \f6 \'c9\'fa\'b3\'c9\'cb\'bd\'c3\'dc\'ba\'cd\'b9\'ab\'c3\'dc\
 \
 \pard\pardeftab720\sl320\partightenfactor0
 
-\f10\fs28 \cf17 \cb1 git remote add origin https://github.com/zhangjieJay/learngit.git //
+\f10\fs28 \cf15 \cb1 git remote add origin https://github.com/zhangjieJay/learngit.git //
 \f6 \'bd\'ab\'b1\'be\'b5\'d8\'b2\'d6\'bf\'e2\'b9\'d8\'c1\'aa\'b5\'bd
 \f10 github
 \f6 \'c9\'cf\'c3\'e6\'c8\'a5
 \f10 \
 \pard\pardeftab720\sl320\partightenfactor0
-\cf17 \cb18 git push -u origin master //
+\cf15 \cb16 git push -u origin master //
 \f6 \'cd\'c6\'cb\'cd\'b1\'be\'b5\'d8\'ca\'fd\'be\'dd\'b5\'bdgithub\'c9\'cf\'c8\'a5
 \f10 \cb1 \
 \pard\pardeftab720\sl360\partightenfactor0
 
-\fs24 \cf10 \cb11 \
-\pard\pardeftab720\sl280\partightenfactor0
-\cf10 \
+\fs24 \cf8 \cb9 \
+\
 \pard\pardeftab720\sl360\partightenfactor0
-\cf10 \
+
+\f9 \cf8 \cb9 git push origin master //
+\f6 \'b9\'d8\'c1\'aa\'ba\'f3\'b1\'be\'b5\'d8\'d0\'de\'b8\'c4\'ba\'f3\'d4\'f2\'bf\'c9\'d2\'d4\'bd\'f8\'d0\'d0\'cd\'c6\'cb\'cd\'d6\'c1\'d4\'b6\'b3\'cc\'b2\'d6\'bf\'e2
+\f10 \
 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf8 \cb9 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb9 \
 \
+
+\f6 \'d0\'de\'b8\'c4\'d2\'bb\'b6\'aa\'b6\'aa
+\f10 \
 \
 }

@@ -3,11 +3,13 @@
 \f3\fnil\fcharset134 .PingFangSC-Regular;\f4\froman\fcharset0 Times-Roman;\f5\fnil\fcharset0 LucidaGrande;
 \f6\fnil\fcharset134 PingFangSC-Regular;\f7\fnil\fcharset0 Menlo-Regular;\f8\fswiss\fcharset0 ArialMT;
 \f9\fmodern\fcharset0 Courier;\f10\fnil\fcharset0 Consolas;\f11\fmodern\fcharset0 Courier-Bold;
-}
+\f12\fnil\fcharset0 MicrosoftYaHei;}
 {\colortbl;\red255\green255\blue255;\red35\green35\blue35;\red245\green245\blue245;\red38\green38\blue38;
 \red254\green254\blue254;\red130\green130\blue130;\red190\green0\blue4;\red52\green52\blue52;\red249\green249\blue249;
 \red210\green0\blue53;\red83\green83\blue83;\red210\green0\blue68;\red17\green137\blue135;\red0\green0\blue109;
-\red27\green31\blue34;\red190\green205\blue237;}
+\red27\green31\blue34;\red14\green110\blue109;\red133\green0\blue96;\red190\green205\blue237;\red109\green109\blue109;
+\red52\green52\blue52;\red249\green249\blue249;\red83\green83\blue83;\red255\green255\blue255;\red210\green0\blue68;
+\red190\green205\blue237;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
 \paperw11900\paperh16840\margl1440\margr1440\vieww24360\viewh14580\viewkind0
@@ -185,29 +187,156 @@ git commit -m \cf10 "append GPL" \cf0 (
 \
 \pard\pardeftab720\sl320\partightenfactor0
 
-\f10\fs28 \cf15 \cb1 git remote add origin https://github.com/zhangjieJay/learngit.git //
+\f10\fs28 \cf15 \cb1 git remote add origin 
+\f9\fs24 \cf8 \cb9 git\cf16 @github\cf8 .\cf17 com:\cf8 zhangjieJay
+\f10\fs28 \cf15 \cb1 /learngit.git //
 \f6 \'bd\'ab\'b1\'be\'b5\'d8\'b2\'d6\'bf\'e2\'b9\'d8\'c1\'aa\'b5\'bd
 \f10 github
 \f6 \'c9\'cf\'c3\'e6\'c8\'a5
 \f10 \
 \pard\pardeftab720\sl320\partightenfactor0
-\cf15 \cb16 git push -u origin master //
+\cf15 \cb18 git push -u origin master //
 \f6 \'cd\'c6\'cb\'cd\'b1\'be\'b5\'d8\'ca\'fd\'be\'dd\'b5\'bdgithub\'c9\'cf\'c8\'a5
 \f10 \cb1 \
 \pard\pardeftab720\sl360\partightenfactor0
 
 \fs24 \cf8 \cb9 \
-\
+\pard\pardeftab720\sl380\partightenfactor0
+
+\f12\fs28 \cf4 \cb19 git remote rm origin
+\f9 \cb1  //
+\f6 \'c8\'a1\'cf\'fb\'b9\'d8\'c1\'aa
+\f9 \
 \pard\pardeftab720\sl360\partightenfactor0
 
-\f9 \cf8 \cb9 git push origin master //
+\f10\fs24 \cf8 \cb9 \
+
+\f9 git push origin master //
 \f6 \'b9\'d8\'c1\'aa\'ba\'f3\'b1\'be\'b5\'d8\'d0\'de\'b8\'c4\'ba\'f3\'d4\'f2\'bf\'c9\'d2\'d4\'bd\'f8\'d0\'d0\'cd\'c6\'cb\'cd\'d6\'c1\'d4\'b6\'b3\'cc\'b2\'d6\'bf\'e2
 \f10 \
 \
 \pard\pardeftab720\sl280\partightenfactor0
-\cf8 \cb9 \
+\cf8 \
 \pard\pardeftab720\sl360\partightenfactor0
-\cf8 \cb9 \
+
+\f9 \cf8 git clone git\cf16 @github\cf8 .\cf17 com:\cf8 zhangjieJay/gitskills.git //
+\f6 \'b4\'d3\'d4\'b6\'b3\'cc\'b2\'d6\'bf\'e2\'bd\'f8\'d0\'d0\'bf\'cb\'c2\'a1\'b5\'bd\'b1\'be\'b5\'d8
+\f10 \
+\
+
+\f9 git checkout -b dev //
+\f6 \'b4\'b4\'bd\'a8\'b7\'d6\'d6\'a7\'b2\'a2\'c7\'d0\'bb\'bb\'b5\'bd\'b7\'d6\'d6\'a7\'cf\'e0\'b5\'b1\'d3\'da\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f9 \cf16 	\cf8 git branch dev\
+	git checkout dev\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f10 \cf12 git branch
+\f6\fs28 \cf11 \cb1 \'c3\'fc\'c1\'ee\'bb\'e1\'c1\'d0\'b3\'f6\'cb\'f9\'d3\'d0\'b7\'d6\'d6\'a7\'a3\'ac\'b5\'b1\'c7\'b0\'b7\'d6\'d6\'a7\'c7\'b0\'c3\'e6\'bb\'e1\'b1\'ea\'d2\'bb\'b8\'f6
+\f10\fs24 \cf12 \cb9 *
+\f6\fs28 \cf11 \cb1 \'ba\'c5\'a1\'a3
+\f10\fs24 \cf8 \cb9 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f9 \cf8 git checkout master //
+\f6 \'c7\'d0\'bb\'bb\'d6\'c1\'d6\'f7\'b7\'d6\'d6\'a7\
+
+\f10 \
+
+\f9 git merge dev  //
+\f6 \'ba\'cf\'b2\'a2
+\f9 dev
+\f6 \'b7\'d6\'d6\'a7\'b5\'bd\'b5\'b1\'c7\'b0\'b7\'d6\'d6\'a7\'d6\'d0\'c8\'a5
+\f9 \
+\
+git branch -d dev  //
+\f6 \'c9\'be\'b3\'fddev\'b7\'d6\'d6\'a7
+\f10 \
+\
+
+\f9 git log --graph --pretty=oneline --abbrev-commit   //
+\f6\fs28 \cf11 \cb1 \'d3\'c3\'b4\'f8\'b2\'ce\'ca\'fd\'b5\'c4
+\f10\fs24 \cf12 \cb9 git log
+\f6\fs28 \cf11 \cb1 \'d2\'b2\'bf\'c9\'d2\'d4\'bf\'b4\'b5\'bd\'b7\'d6\'d6\'a7\'b5\'c4\'ba\'cf\'b2\'a2\'c7\'e9\'bf\'f6\'a3\'ba
+\f10\fs24 \cf8 \cb9 \
+\
+
+\f9 git merge --no-ff -m \cf10 "merge with no-ff"\cf8  dev   //
+\f6 \'ba\'cf\'b2\'a2
+\f9 dev
+\f6 \'b7\'d6\'d6\'a7\'b5\'bd\'b5\'b1\'c7\'b0\'b5\'c4\'b7\'d6\'d6\'a7\'b2\'bb\'b2\'c9\'d3\'c3
+\f9 fast-forward
+\f10 \
+
+\f9 git stash  //
+\f6 \'d4\'dd\'ca\'b1\'bd\'ab\'d0\'de\'b8\'c4\'b5\'c4\'ce\'c4\'bc\'fe\'b4\'a2\'b4\'e6\'c6\'f0\'c0\'b4\'cf\'c2\'b4\'ce\'bf\'c9\'d2\'d4\'bc\'cc\'d0\'f8\'bd\'f8\'d0\'d0\'d0\'de\'b8\'c4\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f10 \cf12 git stash list //
+\f6 \'b2\'e9\'bf\'b4\'b5\'b1\'c7\'b0\'b7\'d6\'d6\'a7\'cf\'c2\'c3\'e6\'b4\'a2\'b4\'e6\'c1\'cb\'c4\'c4\'d0\'a9\'c4\'da\'c8\'dd\
+\pard\pardeftab720\sl320\sa300\partightenfactor0
+
+\fs28 \cf11 \cb1 \'b9\'a4\'d7\'f7\'cf\'d6\'b3\'a1\'bb\'b9\'d4\'da\'a3\'ac
+\f2 Git
+\f6 \'b0\'d1
+\f2 stash
+\f6 \'c4\'da\'c8\'dd\'b4\'e6\'d4\'da\'c4\'b3\'b8\'f6\'b5\'d8\'b7\'bd\'c1\'cb\'a3\'ac\'b5\'ab\'ca\'c7\'d0\'e8\'d2\'aa\'bb\'d6\'b8\'b4\'d2\'bb\'cf\'c2\'a3\'ac\'d3\'d0\'c1\'bd\'b8\'f6\'b0\'ec\'b7\'a8\'a3\'ba
+\f2 \
+
+\f6 \'d3\'c3\'d2\'bb\'ca\'c7
+\f10\fs24 \cf12 \cb9 git stash apply
+\f8\b\fs28 \cf4 \cb1 git stash apply stash@\{id\}
+\f6\b0 \cf11 \'bb\'d6\'b8\'b4\'a3\'ac\'b5\'ab\'ca\'c7\'bb\'d6\'b8\'b4\'ba\'f3\'a3\'ac\'b2\'d8\'c4\'e4\'c4\'da\'c8\'dd\'b2\'a2\'b2\'bb\'c9\'be\'b3\'fd\'a3\'ac\'d0\'e8\'d2\'aa\'c4\'e3\'d3\'c3
+\f10\fs24 \cf12 \cb9 git stash drop 
+\f8\b\fs28 \cf4 \cb1 (git stash drop stash@\{id\} 
+\f6 \'d6\'b8\'b6\'a8\'b5\'c4
+\f8 )
+\f6\b0 \cf11 \'c0\'b4\'c9\'be\'b3\'fd
+\f2 ;\
+
+\f6 \'c1\'ed\'d2\'bb\'d6\'d6\'b7\'bd\'ca\'bd\'ca\'c7\'d3\'c3
+\f10\fs24 \cf12 \cb9 git stash pop(
+\f8\b\fs28 \cf4 \cb1 git stash pop stash@\{id\}
+\f10\b0\fs24 \cf12 \cb9 )
+\f6\fs28 \cf11 \cb1 \'a3\'ac\'bb\'d6\'b8\'b4\'b5\'c4\'cd\'ac\'ca\'b1\'b0\'d1
+\f2 stash
+\f6 \'c4\'da\'c8\'dd\'d2\'b2\'c9\'be\'c1\'cb\'a3\'ba\'c0\'a8\'ba\'c5\'d6\'d0\'ca\'c7\'d6\'b8\'b6\'a8\'b5\'c4\'c4\'b3\'b8\'f6stash
+\f2 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f10\fs24 \cf8 \cb9 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f9 \cf20 \cb21 \outl0\strokewidth0 \strokec20 git remote //
+\f6 \'b2\'e9\'bf\'b4\'d4\'b6\'b3\'cc\'b2\'d6\'bf\'e2\'d0\'c5\'cf\'a2
+\f9 \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f6\fs28 \cf22 \cb23 \strokec22 \'bb\'f2\'d5\'df\'a3\'ac\'d3\'c3
+\f10\fs24 \cf24 \cb21 \strokec24 git remote -v
+\f6\fs28 \cf22 \cb23 \strokec22 \'cf\'d4\'ca\'be\'b8\'fc\'cf\'ea\'cf\'b8\'b5\'c4\'d0\'c5\'cf\'a2\'a3\'ba\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf22 \cb25 \'c9\'cf\'c3\'e6\'cf\'d4\'ca\'be\'c1\'cb\'bf\'c9\'d2\'d4\'d7\'a5\'c8\'a1\'ba\'cd\'cd\'c6\'cb\'cd\'b5\'c4
+\f10\fs24 \cf24 \cb21 \strokec24 origin
+\f6\fs28 \cf22 \cb25 \strokec22 \'b5\'d8\'d6\'b7\'a1\'a3\'c8\'e7\'b9\'fb\'c3\'bb\'d3\'d0\'cd\'c6\'cb\'cd\'c8\'a8\'cf\'de\'a3\'ac\'be\'cd\'bf\'b4\'b2\'bb\'b5\'bd\'cd\'c6\'b5\'c4\'b5\'d8\'d6\'b7\'a1\'a3
+\f10\fs24 \cf20 \cb21 \strokec20 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f9 \cf20 git push origin master  //
+\f6 \'bd\'ab
+\f9 master
+\f6 \'d6\'f7\'b7\'d6\'d6\'a7\'c9\'cf\'c3\'e6\'cb\'f9\'d3\'d0\'ce\'c4\'bc\'fe\'cd\'c6\'cb\'cd\'d6\'c1\'d4\'b6\'b3\'cc\'b2\'d6\'bf\'e2\
+
+\f9 git push origin dev  //
+\f6 \'bd\'ab
+\f9 dev
+\f6 \'b7\'d6\'d6\'a7\'c9\'cf\'b5\'c4\'cb\'f9\'d3\'d0\'ca\'fd\'be\'dd\'cd\'c6\'cb\'cd\'d6\'c1\'d4\'b6\'b3\'cc\'b2\'d6\'bf\'e2
+\f10 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb9 \outl0\strokewidth0 \
 \
 
 \f6 \'d0\'de\'b8\'c4\'d2\'bb\'b6\'aa\'b6\'aa
